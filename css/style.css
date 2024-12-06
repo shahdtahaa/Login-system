@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #24353F;
+  
+}
+
+.signup-form, .login-form, .home-page {
+    width: 70%;
+    padding: 100px 100px;
+    background-color: #24353F;
+    border-radius: 8px;
+    box-shadow: 5px 4px 6px 5px rgba(0, 0, 0, 0.7);
+
+}
+
+h2, h1 {
+    text-align: center;
+    color: #17A2B8;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 2%;
+    background-color: transparent;
+    color: #17A2B8;
+    border: solid #17A2B8;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #17A2B8;
+    color: white;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p{
+    margin-top: 2%;
+    text-align: center;
+    color: white;
+}
+
+
+.navbar {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+
+.welcome-box {
+    background-color: #112d3e;
+    border-radius: 8px;
+    padding: 20px 40px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+
+#logout-btn {
+    font-weight: bold;
+    font-size: 0.9rem; 
+    border-width: 2px; 
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#24353F ;
+
+}
+.welcome-box{
+    background-color:#24353F ;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.5);
+    width: 80;
+    margin: auto;
+    padding: 50px 100px;
+    
+}
+
+.navbar h1 {
+    color: #17A2B8;
+}
+
